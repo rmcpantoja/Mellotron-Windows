@@ -16,12 +16,15 @@ Visit our [website] for audio samples.
 1. NVIDIA GPU + CUDA cuDNN
 
 ## Setup
-1. Clone this repo: `git clone https://github.com/NVIDIA/mellotron.git`
+1. Clone this repo: `git clone https://github.com/NVIDIA/mellotron.git` (Install Git for Windows: https://git-scm.com/download/win )
 2. CD into this repo: `cd mellotron`
 3. Initialize submodule: `git submodule init; git submodule update`
-4. Install [PyTorch]
-5. Install [Apex]
-6. Install python requirements or build docker image 
+4. Install Anaconda: https://www.anaconda.com/products/individual
+5. conda create -n mellotron python=3.8
+6. conda activate mellotron
+7. Install conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+8. Install [Apex]
+9. Install python requirements or build docker image 
     - Install python requirements: `pip install -r requirements.txt`
 
 ## Training
