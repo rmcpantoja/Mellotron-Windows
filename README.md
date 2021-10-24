@@ -16,7 +16,7 @@ Visit our [website] for audio samples.
 1. NVIDIA GPU + CUDA cuDNN
 
 ## Setup
-1. Clone this repo: `git clone https://github.com/NVIDIA/mellotron.git` (Install Git for Windows: [Download](https://git-scm.com/download/win)
+1. Clone this repo: `git clone https://github.com/NVIDIA/mellotron.git` (Install Git for Windows): [Download](https://git-scm.com/download/win)
 2. CD into this repo: `cd mellotron`
 3. Initialize submodule: `git submodule init; git submodule update`
 4. Install Anaconda: [Link](https://www.anaconda.com/products/individual)
