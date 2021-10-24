@@ -19,7 +19,7 @@ Visit our [website] for audio samples.
 1. Clone this repo: `git clone https://github.com/NVIDIA/mellotron.git` (Install Git for Windows): [Download](https://git-scm.com/download/win)
 2. CD into this repo: `cd mellotron`
 3. Initialize submodule: `git submodule init; git submodule update`
-4. Install Anaconda: [Link](https://www.anaconda.com/products/individual)
+4. Install Anaconda: [Download](https://www.anaconda.com/products/individual)
 5. conda create -n mellotron python=3.8
 6. conda activate mellotron
 7. Install conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
